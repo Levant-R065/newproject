@@ -1,4 +1,31 @@
-game.splash("Welcome to ", "WHEEL of FUTURE")
+game.setDialogTextColor(15)
+game.setDialogFrame(img`
+    ..bbabbaabbaabbaabbbbb..
+    .b55ba55ba55ba55babb55b.
+    a5555ba55ba55ba55ba5555a
+    a5555bbaabbaabbaabb5555a
+    ab55baaaaaaaaaaaaaab55ba
+    bbabaaaaaaaaaaaaaaaabbab
+    babbaaaaaaaaaaaaaaaaba5b
+    ab5aaaaaaaaaaaaaaaaaa55a
+    a55aaaaaaaaaaaaaaaaaa5ba
+    b5abaaaaaaaaaaaaaaaabbab
+    babbaaaaaaaaaaaaaaaaba5b
+    ab5aaaaaaaaaaaaaaaaaa55a
+    a55aaaaaaaaaaaaaaaaaa5ba
+    b5abaaaaaaaaaaaaaaaabbab
+    babbaaaaaaaaaaaaaaaaba5b
+    ab5aaaaaaaaaaaaaaaaaa55a
+    a55aaaaaaaaaaaaaaaaaa5ba
+    b5abaaaaaaaaaaaaaaaabbab
+    babbaaaaaaaaaaaaaaaababb
+    ab55baaaaaaaaaaaaaab55ba
+    a5555bbaabbaabbaabb5555a
+    a5555ab55ab55ab55ab5555a
+    .a55bbab55ab55ab55ab55a.
+    ..aaabbaabbaabbaabbaaa..
+    `)
+game.showLongText("Welcome to WHEEL of FUTURE", DialogLayout.Full)
 let mySprite = sprites.create(img`
     ................................................................................................
     ......................................bbbbbbbbbcbbbbbbbbb.......................................
