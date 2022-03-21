@@ -1,5 +1,5 @@
 {
-    "name": "NewProject",
+    "name": "wheelOfFuture",
     "description": "",
     "dependencies": {
         "device": "*",
@@ -9,7 +9,11 @@
         "main.blocks",
         "main.ts",
         "README.md",
-        "assets.json"
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts"
     ],
     "testFiles": [
         "test.ts"
